@@ -1,4 +1,4 @@
-import React from 'react';
+import PropTypes from 'prop-types';
 import { Calendar, User, Phone, Shield } from 'lucide-react';
 import './PatientProfile.css';
 
@@ -9,7 +9,7 @@ const PatientProfile = ({ patientData }) => {
     <div className="patient-profile">
       <div className="profile-header">
         <img 
-          src="/img/Layer 2.png" 
+          src="./img/Layer 2.png" 
           alt={patientData.name}
           className="profile-image"
         />
@@ -63,6 +63,17 @@ const PatientProfile = ({ patientData }) => {
       </button>
     </div>
   );
+};
+
+PatientProfile.propTypes = {
+  patientData: PropTypes.shape({
+    name: PropTypes.string,
+    date_of_birth: PropTypes.string,
+    gender: PropTypes.string,
+    phone_number: PropTypes.string,
+    emergency_contact: PropTypes.oneOfType([PropTypes.string, PropTypes.array]),
+    insurance_type: PropTypes.string,
+  }),
 };
 
 export default PatientProfile;

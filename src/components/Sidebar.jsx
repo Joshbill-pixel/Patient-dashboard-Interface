@@ -4,18 +4,18 @@ import './Sidebar.css';
 
 const Sidebar = ({ patientData }) => {
   const patients = [
-    { name: 'Emily Williams', gender: 'Female', age: 18, avatar: '/img/Layer 8.png' },
-    { name: 'Ryan Johnson', gender: 'Male', age: 45, avatar: '/img/Layer 1.png' },
-    { name: 'Brandon Mitchell', gender: 'Male', age: 36, avatar: '/img/Layer 3.png' },
-    { name: 'Jessica Taylor', gender: 'Female', age: 28, avatar: '/img/Layer 2.png', active: true },
-    { name: 'Samantha Johnson', gender: 'Female', age: 56, avatar: '/img/Layer 6.png' },
-    { name: 'Ashley Martinez', gender: 'Female', age: 54, avatar: '/img/Layer 12.png' },
-    { name: 'Olivia Brown', gender: 'Female', age: 32, avatar: '/img/Layer 10.png' },
-    { name: 'Tyler Davis', gender: 'Male', age: 19, avatar: '/img/Layer 9.png' },
-    { name: 'Kevin Anderson', gender: 'Male', age: 30, avatar: '/img/Layer 4.png' },
-    { name: 'Dylan Thompson', gender: 'Male', age: 36, avatar: '/img/Layer 5.png' },
-    { name: 'Nathan Evans', gender: 'Male', age: 58, avatar: '/img/Layer 7.png' },
-    { name: 'Mike Nolan', gender: 'Male', age: 31, avatar: '/img/pexels-photo-1222271.png' }
+    { name: 'Emily Williams', gender: 'Female', age: 18, avatar: './img/Layer 8.png' },
+    { name: 'Ryan Johnson', gender: 'Male', age: 45, avatar: './img/Layer 1.png' },
+    { name: 'Brandon Mitchell', gender: 'Male', age: 36, avatar: './img/Layer 3.png' },
+    { name: 'Jessica Taylor', gender: 'Female', age: 28, avatar: './img/Layer 2.png', active: true },
+    { name: 'Samantha Johnson', gender: 'Female', age: 56, avatar: './img/Layer 6.png' },
+    { name: 'Ashley Martinez', gender: 'Female', age: 54, avatar: './img/Layer 12.png' },
+    { name: 'Olivia Brown', gender: 'Female', age: 32, avatar: './img/Layer 10.png' },
+    { name: 'Tyler Davis', gender: 'Male', age: 19, avatar: './img/Layer 9.png' },
+    { name: 'Kevin Anderson', gender: 'Male', age: 30, avatar: './img/Layer 4.png' },
+    { name: 'Dylan Thompson', gender: 'Male', age: 36, avatar: './img/Layer 5.png' },
+    { name: 'Nathan Evans', gender: 'Male', age: 58, avatar: './img/Layer 7.png' },
+    { name: 'Mike Nolan', gender: 'Male', age: 31, avatar: './img/pexels-photo-1222271.png' }
   ];
 
   return (

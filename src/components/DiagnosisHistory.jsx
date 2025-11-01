@@ -154,11 +154,11 @@ const DiagnosisHistory = ({ patientData }) => {
           </div>
         </div>
       </div>
-     
+    
       <div className="vital-signs">
         <div className="vital-card respiratory">
           <div className="vital-icon">
-            <img width={55} height={55} src="/img/respiratory rate.png" alt="respiratory rate Icon" />
+            <img width={55} height={55} src="./img/respiratory rate.png" alt="respiratory rate Icon" />
           </div>
           <div className="vital-info">
             <span className="vital-label">Respiratory Rate</span>
@@ -169,7 +169,7 @@ const DiagnosisHistory = ({ patientData }) => {
         
         <div className="vital-card temperature">
           <div className="vital-icon">
-            <img width={55} height={55} src="/img/temperature.png" alt="temperature Icon" />
+            <img width={55} height={55} src="./img/temperature.png" alt="temperature Icon" />
           </div>
           <div className="vital-info">
             <span className="vital-label">Temperature</span>
@@ -180,7 +180,7 @@ const DiagnosisHistory = ({ patientData }) => {
         
         <div className="vital-card heart-rate">
           <div className="vital-icon">
-            <img width={55} height={55} src="/img/HeartBPM.png" alt="Heart icon" />
+            <img width={55} height={55} src="./img/HeartBPM.png" alt="Heart icon" />
           </div>
           <div className="vital-info">
             <span className="vital-label">Heart Rate</span>
