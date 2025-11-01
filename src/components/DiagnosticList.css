@@ -1,0 +1,272 @@
+.diagnostic-list {
+  width: 688px;
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: fit-content;
+}
+
+.diagnostic-table {
+  width: 100%;
+}
+
+.table-header {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  gap: 16px;
+  padding: 12px 0;
+  border-bottom: 1px solid #e5e7eb;
+  margin-bottom: 8px;
+}
+
+.table-header span {
+  font-size: 14px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.table-body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.table-row {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  gap: 16px;
+  padding: 12px 0;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.table-row:last-child {
+  border-bottom: none;
+}
+
+.diagnosis-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.diagnosis-description {
+  font-size: 14px;
+  color: #6b7280;
+  line-height: 1.4;
+}
+
+.diagnosis-status {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 20px;
+  text-align: center;
+  width: fit-content;
+}
+
+.diagnosis-status.under-observation {
+  background: #fef3c7;
+  color: #d97706;
+}
+
+.diagnosis-status.cured {
+  background: #d1fae5;
+  color: #059669;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 32px;
+}
+
+.diagnosis-status.inactive {
+  background: #f3f4f6;
+  color: #6b7280;
+  width: 80px;
+  height: 32px;
+}
+
+@media (max-width: 576px) {
+  .table-header,
+  .table-row {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  
+  .table-header {
+    display: none;
+  }
+  
+  .table-row {
+    background: #f9fafb;
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+  }
+  
+  .diagnosis-status {
+    width: fit-content;
+  }
+}
+@media (max-width: 768px) {
+  .table-header,
+  .table-row {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  
+  .table-header {
+    display: none;
+  }
+  
+  .table-row {
+    background: #f9fafb;
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+  }
+  
+  .diagnosis-status {
+    width: fit-content;
+  }
+}
+@media (max-width: 1024px) {
+  .table-header,
+  .table-row {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  
+  .table-header {
+    display: none;
+  }
+  
+  .table-row {
+    background: #f9fafb;
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+  }
+  
+  .diagnosis-status {
+    width: fit-content;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1420px) {
+  .diagnostic-list {
+    width: 475px;
+  }
+  
+  .diagnostic-table {
+    width: 100%;
+  }
+  
+  .table-header {
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 16px;
+    padding: 12px 0;
+    border-bottom: 1px solid #e5e7eb;
+    margin-bottom: 8px;
+  }
+  
+  .table-row {
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 16px;
+    padding: 12px 0;
+    border-bottom: 1px solid #f3f4f6;
+  }
+}
+
+@media (min-width: 1040px) and (max-width: 1050px) {
+  .diagnostic-list {
+    width: 485px;
+  }
+}
+
+@media (min-width: 1051px) and (max-width: 1061px) {
+  .diagnostic-list {
+    width: 490px;
+  }
+}
+@media (min-width: 1062px) and (max-width: 1072px) {
+  .diagnostic-list {
+    width: 495px;
+  }
+}
+@media (min-width: 1073px) and (max-width: 1090px) {
+  .diagnostic-list {
+    width: 495px;
+  }
+}
+@media (min-width: 1091px) and (max-width: 1100px) {
+  .diagnostic-list {
+    width: 510px;
+  }
+}
+@media (min-width: 1101px) and (max-width: 1130px) {
+  .diagnostic-list {
+    width: 520px;
+  }
+}
+@media (min-width: 1131px) and (max-width: 1150px) {
+  .diagnostic-list {
+    width: 530px;
+  }
+}
+@media (min-width: 1151px) and (max-width: 1170px) {
+  .diagnostic-list {
+    width: 540px;
+  }
+}
+@media (min-width: 1171px) and (max-width: 1200px) {
+  .diagnostic-list {
+    width: 550px;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1220px) {
+  .diagnostic-list {
+    width: 560px;
+  }
+}
+@media (min-width: 1221px) and (max-width: 1250px) {
+  .diagnostic-list {
+    width: 570px;
+  }
+}
+@media (min-width: 1251px) and (max-width: 1270px) {
+  .diagnostic-list {
+    width: 580px;
+  }
+}
+@media (min-width: 1271px) and (max-width: 1300px) {
+  .diagnostic-list {
+    width: 590px;
+  }
+}
+@media (min-width: 1301px) and (max-width: 1320px) {
+  .diagnostic-list {
+    width: 600px;
+  }
+}
+@media (min-width: 1321px) and (max-width: 1350px) {
+  .diagnostic-list {
+    width: 610px;
+  }
+}
+@media (min-width: 1351px) and (max-width: 1370px) {
+  .diagnostic-list {
+    width: 620px;
+  }
+}
+@media (min-width: 1371px) and (max-width: 1400 px) {
+  .diagnostic-list {
+    width: 630px;
+  }
+}
+@media (min-width: 1401px) and (max-width: 1420px) {
+  .diagnostic-list {
+    width: 640px;
+  }
+}
